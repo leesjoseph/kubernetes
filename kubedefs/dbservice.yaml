@@ -4,7 +4,7 @@ metadata:
   name: vprodb
 spec:
   selector:
-    name: vprodb
+    app: vprodb
   ports:
     - protocol: TCP
       port: 3306
