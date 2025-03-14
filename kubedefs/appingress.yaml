@@ -5,12 +5,12 @@ metadata:
   annotations:
     nginx.ingress.kubernetes.io/use-regex: "true"
 spec:
-  ingressClassName: nginx-example
+  ingressClassName: nginx
   rules:
-  - host: s-lee.it.kr
+  - host: profile.s-lee.it.kr
     http:
       paths:
-      - path: /ingress
+      - path: /
         pathType: Prefix
         backend:
           service:
